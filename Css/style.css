@@ -1,0 +1,257 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+*{
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.p1{
+    background-color:#FF5733;
+    
+}
+
+ .p1-box{
+    display: grid;
+    grid-template-columns: 80%;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 50px;
+    padding: 50px 0;
+}
+
+.p1-item h1{
+    text-align: center;  
+    color: white ;
+
+}
+.p1-item p{
+    text-align: center;
+    display: block;
+    margin: 30px auto;
+    width: 80%;
+    color: white;
+    font-size: 1.3em;
+
+}
+
+
+
+form{
+    width: 100%;
+    flex-direction: column;
+    margin-right: 4%;
+    justify-content: center;
+}
+form .input-fields{
+    display: flex;
+    flex-direction: column;
+    margin-right: 4%;
+    justify-content:  center;
+    width: 100%;  
+   align-items: center;
+    padding: 50px;
+}
+.input-fields input, .msg textarea{
+    margin: 10px 0;
+    background:white;
+    border-radius:5px;
+    padding:10px;
+    color:#1D3AB2    ;
+    width:50%;
+    justify-content: center;    
+}
+.input-fields  { 
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+ .input-fields input:nth-child(3) {
+     background-color: #1D3AB2;
+     color: white;
+     border-radius: 35px;
+ }
+.msg textarea{
+    height: 80px;
+    width: 100%;
+}
+.input-fields button{
+    background-color:#1D3AB2;
+    color:#1D3AB2;
+    text-align: center;
+    padding: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    border: none;
+    width: 18%
+}
+.p2-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom:50px ;
+    width: 100%;
+}
+.p2-box p{
+    font-size: 1.3em;
+    width: 80%;
+    display: block;
+    margin: 20px auto;
+}
+.p2-item{
+    margin: 0 20px;
+}
+.p2 h1{
+    text-transform: uppercase;
+    padding: 30px 0 80px 0;
+    text-align: center;
+    font-size: 2.5em;
+
+}
+.p2-item img{
+    width: 
+    55vw;
+}
+.p2-item button.color{
+    background-color:#1D3AB2;
+    color:white;
+    text-align: center;
+    width: 55vw;
+    height: 10vh;
+    border-radius: 35px;
+    font-size: 1.4em;
+    cursor: pointer;
+    text-transform: uppercase;
+    border: none;
+    display: block;
+    margin: 10px auto;
+}
+.p2 h1 b{
+    color:#1D3AB2 ;
+}
+
+.p3{
+    background-color:#FF5733;
+}
+.p3-box{
+    display: grid;
+    grid-template-columns: 100%;
+    justify-content: center;
+    padding: 50px 0;
+}
+.p3-item{
+   display: flex;
+   flex-direction: row;
+   justify-items: center;
+   justify-content: center;
+}
+.p3-item img{
+    width: 5vw;
+    align-self: center;
+    margin-bottom:30px ;
+
+}
+.p3-item .first{ 
+    width: 30vw;
+}
+.p3-item h3{
+    color: white;
+}
+
+.i1 , .i2, .i3, .i4 {
+   
+}
+
+.i1 h3, .i2 h3, .i3 h3, .i4 h3 {
+    align-self: center;
+    margin: 20px;
+    font-weight: 400;
+    font-size: 1.5em;
+
+}
+
+.i1 img, .i2 img, .i3 img, .i4 img {
+    align-self: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.p4 button.color{
+    background-color:#1D3AB2;
+    color:white;
+    text-align: center;
+    width: 55vw;
+    height: 10vh;
+    border-radius: 35px;
+    font-size: 1.4em;
+    cursor: pointer;
+    text-transform: uppercase;
+    border: none;
+    display: block;
+    margin: 0px auto;
+}
+.p4{
+    padding: 20px;
+    background-color:#FF5733;
+
+}
+
+footer p{
+    padding: 20px 0;
+    text-align: center;
+}
+footer p a{
+    text-decoration: none;
+    color: #1D3AB2;
+}
+footer{
+   border-top: 5px solid #1D3AB2;
+}
+
+@media screen and (max-width: 900px){
+    .input-fields input, .msg textarea{
+        
+        background:white;
+        border-radius:5px;
+        padding:10px;
+        color:#1D3AB2    ;
+        width:100%;
+        justify-content: center;    
+    }
+    .p2-item  button.color{
+        width: 55vw;
+        height: 10vh;
+    }
+    .p3-item{
+        flex-direction: column;
+    }
+    .p3-item img{
+        width: 15vw;
+    }
+    .i1 h3, .i2 h3, .i3 h3, .i4 h3 {
+        align-self: center;
+        margin: 20px;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .p4 button.color{
+        background-color:#1D3AB2;
+        color:white;
+        text-align: center;
+        width: 85vw;
+        height: 10vh;
+        border-radius: 35px;
+        font-size: 1.4em;
+        cursor: pointer;
+        text-transform: uppercase;
+        border: none;
+        display: block;
+        margin: 0px auto;
+    }
+}
